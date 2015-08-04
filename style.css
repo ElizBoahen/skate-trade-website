@@ -1,4 +1,4 @@
-.logo{
+h2{
 	font-family: 'Permanent Marker', cursive;
 	font-size: 100px;
 	color: white;
@@ -13,23 +13,14 @@ h6{
 	color: white;
 }
 
-body{
-	background-image: url("img/mbridge.jpg");
+.jumbotron{
+
+	background-image: url(http://www.skateslate.com/wp-content/uploads/2013/03/130303_SkateSlate_ReflectionsOfASkatePhotographer-1230.jpg);
+	background-repeat: none;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
+	padding-bottom: 450px;
 }
 
-@media (max-width: 500px) {
-  body {
-  	background-image: url("img/mbridgemobile.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
-    }
-  }
 
 .row{
 	margin-left: 20px; 
