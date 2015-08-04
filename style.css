@@ -1,4 +1,4 @@
-h1{
+.logo{
 	font-family: 'Permanent Marker', cursive;
 	font-size: 100px;
 	color: white;
@@ -22,5 +22,6 @@ p {
 	background-color: grey;
 	opacity: 0.9;
 	padding: 5px;
+
 
 }

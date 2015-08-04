@@ -13,7 +13,7 @@
 <body>
 <div class="container">
 	<div class="row">
-		<h1>Skate Trade</h1>
+		<h1 class="logo">Skate Trade</h1>
 	</div>
 	<div class="row">
 		<br>
@@ -29,20 +29,35 @@
 	
 	<div class="row">
 		<div class="col-md-7">
-		<button id="modal" type="button" class="btn btn-success btn-md pull-left">Pre-Order Today</button>
-		<button type="button" class="btn btn-default btn-md pull-left">Learn More</button>
+		<button href="#pre" data-toggle="modal"type="button" class="btn btn-success btn-md pull-left">Pre-Order Today</button>
+		<button href="about.html" type="button" class="btn btn-default btn-md pull-left">Learn More</button>
 		</div>
 	</div>
 
-	<div class="row">
-		<br>
-		<br>
-		<br>
-		<p id="p-1">dalfshzdfjhesbdfk,jsjsz</p>
-
-	</div>
-
+	
 </div>
+
+<div class="modal fade" id="pre" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+				
+				<div class="modal-header">
+					<h1>Be the first to know when we launch! </h1>
+					
+				</div>
+
+				<div class="modal-body">
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+					  </div>
+					 </form>
+				</div>
+		
+		</div><!--closes the modal content-->
+	</div><!--closes the modal dialog-->
+</div><!--closes the modal fade-->
 
 
 
