@@ -55,29 +55,27 @@ header{
 	padding-bottom: 150px;
 }
 
-
-
-
+#back{
+	background-color: grey;
+	opacity: .8;
+	margin-top: 30px;
+}
 
 section{
 	background-image: url(img/mbridge.jpg);
 	background-repeat: repeat;
 	background-size: cover;
-	padding-bottom: 500px;
+	padding-bottom: 250px;
 	
 }
 
 p{
-	background-color: grey;
+	
+	
 	border-radius: 10px;
 	color: black;
-}
-
-footer{
-	background-image: url(http://korduroy.tv/wp-content/uploads/legacy-uploads/uploads/image/image/3254/Image4.jpg);
-	background-size: cover;
-	padding-bottom: 250px;
-	opacity: 0.8;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 20px;
 }
 
 img{	border-radius: 150px;
@@ -96,30 +94,15 @@ img{	border-radius: 150px;
 		
 	}
 
-	.col-md-8{
-		padding-top: 10px;
+	section{
+		background-image: url(http://www.michaelwilliams.co.uk/content/5.personal/2Personal23-MichaelRobertWilliams-Empire-NYC.jpg);
 
-	}
+		background-size: cover;
 
-	#video{
-		display: none;
-	}
-
-	#sleeve{
-		margin-top: 10px;
-		text-align: center;
-		display: block;
-	}
-
-	h1{
-		font-size: 30px;
-	}
-	.form{
-		text-align: center;
+		padding-bottom: 80px;
 	}
 
 	.pitch{
-		width: 400px;
+		width: 20em;
 	}
-
 }
