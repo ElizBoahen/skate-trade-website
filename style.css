@@ -8,21 +8,28 @@
 
 .glyphicon:hover{
 	color:#FFA057; 
+
 }
 
+.modal-content{
+	background-image: url(img/tile.png); 
+	width: 700;
+}
 
 h2{
 	font-family: 'Permanent Marker', cursive;
 	font-size: 100px;
 	color: white;
 	text-shadow: -10px 0 black, 0 1px black, 1px 0 black,0  -1px black;
+
 	
 }
 h3{
 	font-family: 'Permanent Marker', cursive;
-	color: black;
-	font-size: 40px;
+	color: white;
+	font-size: 20px;
 	text-align: center;
+	text-shadow: -5px 0 black, 0 1px black, 1px 0 black,0  -1px black;
 }
 h1{
 
@@ -30,38 +37,34 @@ h1{
 	font-size: 60px;
 	color: black;
 	text-align: center;
+	padding-bottom: 30px;
 }
 h6{
 	font-family: 'Permanent Marker', cursive;
 	font-size: 25px;
-	text-shadow: -5px 0 black, 0 1px black, 1px 0 black,0  -1px black;
+	padding-bottom: 50px;
 	color: white;
-	padding-bottom: 70px;
+
 }
 
 header{
 
-	background-image: url(http://www.skateslate.com/wp-content/uploads/2013/03/130303_SkateSlate_ReflectionsOfASkatePhotographer-1230.jpg);
+	background-image: url(img/sk8trade.jpg);
 	background-repeat: none;
 	background-size: cover;
-	padding-bottom: 350px;
+	padding-bottom: 150px;
 }
 
-
-
-img{
-	border-radius: 300px 200px;
-
-}
 
 
 
 
 section{
-	background-image: url(http://www.themesltd.com/backgrounds/random/blue_penny_boards.jpg);
+	background-image: url(img/mbridge.jpg);
 	background-repeat: repeat;
-	padding-bottom: 250px;
-	opacity: 0.8;
+	background-size: cover;
+	padding-bottom: 500px;
+	
 }
 
 p{
@@ -78,23 +81,13 @@ footer{
 	opacity: 0.8;
 }
 
-
-.col-md-8{
-	padding-top: 110px;
-
-}
-
-.dnan{
-	width: 200px;
-}
-
-.ebut{
-	width: 200px;
-}
-
-.copy{
+img{	border-radius: 150px;
+	width:150px; 
+	height:150px;
 	text-align: center;
 }
+
+
 
 @media (max-width: 600px){
 	header{

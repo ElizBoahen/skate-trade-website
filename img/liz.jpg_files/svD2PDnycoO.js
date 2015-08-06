@@ -1,0 +1,5 @@
+/*!CK:3168220018!*//*1438572769,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["LesYI"]); }
+
+__d("ReactComposerTimelineStore",["ReactComposerActionStore","ReactComposerMediaConfig","ReactComposerPostUtils","TimelineComposer"],function(a,b,c,d,e,f,g,h,i,j){b.__markCompiled&&b.__markCompiled();for(var k in g)if(g.hasOwnProperty(k))m[k]=g[k];var l=g===null?null:g.prototype;m.prototype=Object.create(l);m.prototype.constructor=m;m.__superConstructor__=g;function m(){"use strict";g.call(this);}m.prototype.__onPostStarted=function(n){"use strict";i.post({actorID:n.actorID,composerID:n.composerID,contextInfo:n.config.contextInfo,targetID:n.targetID});};m.prototype.__canPost=function(n){"use strict";return !i.isPostButtonDisabled(n.composerID,h.photo.limit);};m.prototype.__cleanup=function(n){"use strict";j.destroy();};e.exports=new m();},null);

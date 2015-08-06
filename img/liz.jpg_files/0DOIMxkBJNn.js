@@ -1,0 +1,6 @@
+/*!CK:3004343476!*//*1436155570,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["ns\/sY"]); }
+
+__d("ReactComposerScrapedAttachmentActions",["ReactComposerScrapedAttachmentActionType","ReactComposerDispatcher","ReactComposerScrapedAttachmentStore"],function(a,b,c,d,e,f,g,h){b.__markCompiled&&b.__markCompiled();b('ReactComposerScrapedAttachmentStore');function i(){"use strict";}i.prototype.enabled=function(j,k){"use strict";var l={composerID:j,type:g.ATTACHMENT_SCRAPE_ENABLED,enabled:k};h.dispatch(l);};i.prototype.setScrapedAttachment=function(j,k,l){"use strict";var m={composerID:j,type:g.ATTACHMENT_SCRAPED,markup:k,attachmentConfig:l};h.dispatch(m);};i.prototype.setPermissiveMatch=function(j,k){"use strict";var l={composerID:j,type:g.ATTACHMENT_PERMISSIVE_MATCH_SETTED,permissiveMatch:k};h.dispatch(l);};i.prototype.scrapeAttachment=function(j,k,l){"use strict";var m={composerID:j,type:g.ATTACHMENT_SCRAPE_INTENDED,targetID:k,value:l};h.dispatch(m);};e.exports=new i();},null);
+__d("ReactComposerScrapedAttachmentBootstrapper",["ReactComposerScrapedAttachmentActions"],function(a,b,c,d,e,f,g){b.__markCompiled&&b.__markCompiled();var h={bootstrap:function(i,j){g.setScrapedAttachment(i,j.markup,j.attachmentConfig);}};e.exports=h;},null);
